@@ -10,7 +10,7 @@ import java.io.IOException;
 public class MyDiscgolfBagApp extends Application {
 	@Override
 	public void start(Stage stage) throws IOException {
-		FXMLLoader fxmlLoader = new FXMLLoader(MyDiscgolfBagApp.class.getResource("hello-view.fxml"));
+		FXMLLoader fxmlLoader = new FXMLLoader(MyDiscgolfBagApp.class.getResource("BagMain-View.fxml"));
 		Scene scene = new Scene(fxmlLoader.load(), 420, 340);
 		stage.setTitle("MyDiscgolfBag Applicaton ");
 		stage.setScene(scene);
