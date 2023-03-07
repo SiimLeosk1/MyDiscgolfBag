@@ -11,7 +11,7 @@ public class MyDiscgolfBagApp extends Application {
 	@Override
 	public void start(Stage stage) throws IOException {
 		FXMLLoader fxmlLoader = new FXMLLoader(MyDiscgolfBagApp.class.getResource("BagMain-View.fxml"));
-		Scene scene = new Scene(fxmlLoader.load(), 420, 340);
+		Scene scene = new Scene(fxmlLoader.load(), 600, 400);
 		stage.setTitle("MyDiscgolfBag Applicaton ");
 		stage.setScene(scene);
 		stage.show();
