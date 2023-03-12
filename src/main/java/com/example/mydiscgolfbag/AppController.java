@@ -20,8 +20,10 @@ public class AppController {
 
 	@FXML
 	void onSubmitButtonClick(ActionEvent event) {
-		System.out.println("Hi");
-		confirmText.setText("Disc added.");
+		String saveText = txtField1.getText();
+		confirmText.setText(saveText + " Added.");
+		System.out.println(saveText);
+
 	}
 
 	@FXML

@@ -20,7 +20,7 @@
                   <ChoiceBox layoutX="102.0" layoutY="228.0" prefHeight="26.0" prefWidth="72.0" />
                   <ChoiceBox layoutX="102.0" layoutY="187.0" prefHeight="26.0" prefWidth="72.0" />
                   <ChoiceBox layoutX="102.0" layoutY="139.0" prefHeight="26.0" prefWidth="72.0" />
-                  <Label fx:id="confirmText" layoutX="210.0" layoutY="51.0" text="Label" />
+                  <Label fx:id="confirmText" layoutX="210.0" layoutY="51.0" text="Add your disc!" />
                </children></AnchorPane>
       </content>
     </Tab>
